@@ -51,6 +51,7 @@ const cardGenerator = () => {
     });
   });
 };
+//generates cards
 cardGenerator();
 function checkCards(e) {
   // console.log(e)

@@ -1,6 +1,7 @@
 const section = document.querySelector("section");
 const lives = document.querySelector("span");
-var totalLives = 8;
+const button=document.querySelector('.button')
+var totalLives = 10;
 var clicked1;
 var totalScore = 0;
 lives.textContent = totalLives;
@@ -24,6 +25,11 @@ const getData = () => [
   { color: "#F7CAC9", name: "pink" },
   { color: "violet", name: "violet" },
 ];
+
+//refresh
+button.addEventListener('click',()=>{
+  location.reload();
+});
 
 function randomize() {
   const data = getData();

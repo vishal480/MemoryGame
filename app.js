@@ -1,6 +1,6 @@
 const section = document.querySelector("section");
 const lives = document.querySelector("span");
-var totalLives = 10;
+var totalLives = 8;
 var clicked1;
 var totalScore = 0;
 lives.textContent = totalLives;

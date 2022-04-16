@@ -8,22 +8,22 @@ lives.textContent = totalLives;
 
 section.style.pointerEvents = "none";
 const getData = () => [
-  { color: "#DD4124", name: "tango" },
+  { color: "teal", name: "teal" },
   { color: "green", name: "green" },
   { color: "aqua", name: "aqua" },
   { color: "yellow", name: "yellow" },
-  { color: "#FFD662", name: "black" },
-  { color: "orange", name: "orange" },
-  { color: "#F7CAC9", name: "pink" },
-  { color: "violet", name: "violet" },
   { color: "#DD4124", name: "tango" },
+  { color: "#A0DAA9", name: "orange" },
+  { color: "#EC9787", name: "pink" },
+  { color: "#6B5B95", name: "blue" },
+  { color: "teal", name: "teal" },
   { color: "green", name: "green" },
   { color: "aqua", name: "aqua" },
   { color: "yellow", name: "yellow" },
-  { color: "#FFD662", name: "black" },
-  { color: "orange", name: "orange" },
-  { color: "#F7CAC9", name: "pink" },
-  { color: "violet", name: "violet" },
+  { color: "#DD4124", name: "tango" },
+  { color: "#A0DAA9", name: "orange" },
+  { color: "#EC9787", name: "pink" },
+  { color: "#6B5B95", name: "blue" },
 ];
 
 //refresh
